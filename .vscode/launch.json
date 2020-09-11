@@ -1,0 +1,125 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "name": "Python: Merge",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["merge", "ellen-branch-1"]
+        },
+
+        {
+            "name": "Python: Branch",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["branch", "ellen-branch-1"]
+        },
+
+        
+        {
+            "name": "Python: Checkout",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["checkout", "ellen-branch-1"]
+        },
+        {
+            "name": "Python: Checkout MASTER",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["checkout", "master"]
+        },
+        {
+            "name": "Python: Init",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["init"]
+        },
+        {
+            "name": "Python: Graph ALL",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["graph", "--all"]
+        },
+        {
+            "name": "Python: Graph",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["graph"]
+        },
+        {
+            "name": "Python: Checkout",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["checkout", "676495591417bbe760d4e258474944b1acf071ef"]
+        },
+    
+        {
+            "name": "Python: Add File",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["add", "test\\test2.txt"]
+        },
+        {
+            "name": "Python: Add Folder",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["add", "test"]
+        },
+
+
+        {
+            "name": "Python: Commit",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["commit", "msg"]
+        },
+        {
+            "name": "Python: Status",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/ellen/OneDrive/Documents/py-course/week10/Upload_177/wit.py",
+            "console": "integratedTerminal",
+            "cwd": "C:/Users/ellen/OneDrive/Documents/py-course/week1",
+            "args": ["status"]
+        }
+
+    ]
+}
